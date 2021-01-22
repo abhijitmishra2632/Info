@@ -1,0 +1,33 @@
+docker ps
+docker images
+Create Containers:::
+docker pull ubuntu
+docker run -t -d --name myubuntu ubuntu
+docker exec -it myubuntu bash
+
+docker stop myubuntu
+docker rm myubuntu
+
+
+
+docker pull centos
+docker run -t -d -h cosmos --name myboxcentos centos
+docker exec -it myboxcentos bash 
+docker stop myboxcentos
+
+Ubuntu Commands:::
+pwd		present working directory
+ls
+ls -l
+ll
+clear
+cd		change directory
+mkdir 
+cat 
+less 
+more
+cp
+mv
+
+
+
